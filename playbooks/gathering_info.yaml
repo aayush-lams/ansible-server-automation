@@ -1,0 +1,10 @@
+---
+- name: check for pkg and stuffs
+  hosts: linux
+  become: true
+
+  tasks:
+    - name: Install or check nginx pkg
+      apt:
+        name: nginx
+        state: present
