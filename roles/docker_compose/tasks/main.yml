@@ -51,4 +51,4 @@
     state: restarted
     masked: no
     enabled: yes
-    ags: install_docker
+  tags: install_docker

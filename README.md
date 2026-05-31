@@ -71,6 +71,5 @@ Global variables are defined once in `site.yml` and available to every role:
 Role-specific variables (e.g. `navidrome_port`, `nginx_server_name`) are
 defined in `roles/<name>/vars/main.yml`.
 
-## notes
 - This is a local-lab setup — no CI, tests, linters, or pre-commit hooks are
   configured.

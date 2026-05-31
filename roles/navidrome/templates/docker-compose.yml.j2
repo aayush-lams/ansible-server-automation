@@ -7,6 +7,8 @@ services:
     environment:
       ND_SCANSCHEDULE: 1h
       ND_LOGLEVEL: info
+      PUID: {{ ansible_user_uid }}
+      PGID: {{ ansible_user_gid }}
       ND_SESSIONTIMEOUT: 24h
       ND_BASEURL: ""
     volumes:
